@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn-danger {
+  margin: 2px 85%;
+}
+.Modal {
+  position: absolute;
+  height: auto;
+  width: 300px;
+  margin-top: 20%;
+  margin-left: 40%;
+  background-color: papayawhip;
+  padding: 10px;
+  text-align: center;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.516);
+}
