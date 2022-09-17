@@ -3,25 +3,48 @@
   text-align: center;
 }
 
+body {
+  background-color: rgb(56, 56, 215);
+  color: white;
+}
 .btn-danger {
   margin: 2px 85%;
+  border-radius: 50%;
 }
 .Modal {
   position: absolute;
   height: auto;
   width: 300px;
   margin-top: 20%;
+  color: white;
   margin-left: 40%;
-  background-color: papayawhip;
+  background-color: rgb(8, 8, 116);
   padding: 10px;
   text-align: center;
+  box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
 }
-
+.btn-primary {
+  background-color: rgb(4, 4, 116);
+  width: 140px;
+  font-size: 20px;
+  border-radius: 15px;
+  font-weight: 900;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6);
+}
+.Modal h1::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 70%;
+  background-color: white;
+  margin-left: 15%;
+}
 .Overlay {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(128, 128, 128, 0.516);
+  background-color: rgba(0, 0, 0, 0.8);
 }
